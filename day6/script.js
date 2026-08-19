@@ -33,11 +33,31 @@
 //     console.log("You are not eligible to vote")
 // }
 
-let age = 20
+// let age = 20
 
-console.log(age > 18)
-console.log(age < 18)
-console.log(age >= 18)
-console.log(age <= 18)
-console.log(age == 18)
-console.log(age != 18)
+// console.log(age > 18)
+// console.log(age < 18)
+// console.log(age >= 18)
+// console.log(age <= 18)
+// console.log(age == 18)
+// console.log(age != 18)
+
+// let cgpa = 8.8
+// if(cgpa >= 8.0 ) {
+//     console.log("Grade A")
+// } else if(cgpa >= 6.0) {
+//     console.log("Grade B")
+// } else {
+//     console.log("Grade C")
+// }
+let button = document.querySelector("#button")
+let title = document.querySelector("#title")
+
+button.addEventListener("click", function() {
+    title.innerText = "Button was Clicked"
+});
+
+document.querySelector("#btn")
+document.addEventListener("click", function() {
+    alert(" Clicked")
+})
